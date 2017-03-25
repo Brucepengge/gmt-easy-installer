@@ -8,7 +8,7 @@ if [[ $# -eq 0 ]] ; then
 fi
 
 BASE_dir=/gmt-easy-installer
-GMT_installer=GMT-{GMT_version}installer.sh
+GMT_installer=GMT-${GMT_version}installer.sh
 OS_installer=${OS}-installer.sh
 
 if [ "$OS" = "CentOS-6.7" ]; then
