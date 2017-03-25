@@ -1,5 +1,4 @@
 #!/bin/sh
-GMT_version=5.3.2
 OS=$1
 
 if [[ $# -eq 0 ]] ; then
@@ -8,7 +7,7 @@ if [[ $# -eq 0 ]] ; then
 fi
 
 BASE_dir=/gmt-easy-installer
-GMT_installer=GMT-${GMT_version}-installer.sh
+GMT_installer=GMT-installer.sh
 OS_installer=${OS}-installer.sh
 
 if [ "$OS" = "CentOS-6.7" ]; then
